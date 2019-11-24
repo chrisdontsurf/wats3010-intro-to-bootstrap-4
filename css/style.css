@@ -1,1 +1,9 @@
 /* Site Styles Go Here */
+
+.flex-left {
+    display: flex; justify-content: left; color: white;
+}
+
+.flex-right {
+    display: flex; text-align: right; color: white;
+}

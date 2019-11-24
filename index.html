@@ -6,29 +6,51 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <!-- TODO: Add proper viewport meta tag to make page properly display on mobile devices. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Modern Business - Start Bootstrap Template</title>
-
+  <title>WNR</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link rel='icon' href='images/favicon.ico' type='image/x-icon'/ >
 </head>
 
 <body>
-
-  <!-- (1)Navigation -->
-  <!-- TODO implement responsive navigation that matches your IA design -->
-  <!-- TODO put this nav on every page -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    
+  <div><nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">WNR</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav">
+  <li class="nav-item active">
+  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="contact.html">Get Involved</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="faq.html">Current Projects</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="about.html">About</a>
+  </li>
+  </ul>
+  </div>
   </nav>
+
+  
+  </nav></div>
 
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -39,29 +61,23 @@
       </ol>
 
       <!-- Wrapper for slides -->
-
-      <!-- TODO: (2)Add images to your repository and update this code so the carousel has proper slides. -->
-
       <div class="carousel-inner" role="listbox">
-        <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+        <div class="carousel-item active" style="background-image: url('images/pic1.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>First Slide</h3>
-            <p>This is a description for the first slide.</p>
+            <h3>Our Mission</h3>
+            <p>To restore native plants to Washington ecosystems.</p>
           </div>
         </div>
-        <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+        <div class="carousel-item" style="background-image: url('images/pic3.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>Second Slide</h3>
-            <p>This is a description for the second slide.</p>
+            <h3>Ferns</h3>
+            <p>are my favorite</p>
           </div>
         </div>
-        <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+        <div class="carousel-item" style="background-image: url('images/pic2.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>Third Slide</h3>
-            <p>This is a description for the third slide.</p>
+            <h3>Thanksgiving</h3>
+            <p>is coming soon!!!</p>
           </div>
         </div>
       </div>
@@ -78,138 +94,68 @@
 
   <!-- Page Content -->
   <div class="container">
-    <h1 class="my-4">Welcome to Modern Business</h1>
+    <h1 class="my-4">Welcome to Washington Native Restoration!</h1>
 
-    <!-- Marketing Icons Section -->
-    <div class="row">
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi
-              similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni
-              nostrum sint fuga.</p>
-              </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.row -->
+    
 
 
-    <!-- Portfolio Section -->
-     <!-- (3)TODO: Add the proper "row" and "col" classes to make this display work the way it should. -->
-    <!-- This section shoudld be contained in a row. -->
-    <!-- This section should have columns that are 4 units wide at size "md" and above, but 6 units wide at size "sm" and below. -->
-
-    <h2>Portfolio Heading</h2>
+    
+    <h2>Some of our favorite plants</h2>
 
     <div class="row">
-      <div class="portfolio-item">
+      <div class="col">
         <div class="card h-100">
-          <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
+          <a>
+            <img class="card-img-top" src="images/plant-pics/poak.jpg" alt="">
           </a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Project One</a>
+              <a>Poison Oak</a>
             </h4>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt?
               Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
           </div>
         </div>
       </div>
-      <div class="portfolio-item">
+      <div class="col">
         <div class="card h-100">
-          <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
+          <a>
+            <img class="card-img-top" src="images/plant-pics/groundcone.jpg" alt="">
           </a>
                     <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Project Two</a>
+              <a>Groundcone</a>
             </h4>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
               varius vitae.</p>
         </div>
       </div>
     </div>
-    <div class="portfolio-item">
+    <div class="col">
       <div class="card h-100">
-        <a href="#">
-          <img class="card-img-top" src="http://placehold.it/700x450" alt="">
+        <a>
+          <img class="card-img-top" src="images/plant-pics/native flower.png" alt="">
         </a>
         <div class="card-body">       
                <h4 class="card-title">
-          <a href="#">Project Three</a>
+          <a >pwetty flowah</a>
         </h4>
         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio
           velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
       </div>
         </div>
       </div>
-      <div class="portfolio-item">
+      <div class="col">
         <div class="card h-100">
-          <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
+          <a>
+            <img class="card-img-top" src='images/plant-pics/2020-oct1.jpg' alt="">
           </a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Project Four 600x400 instead of 700x400</a>
+              <a>Maple!</a>
             </h4>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
               varius vitae.</p>
-          </div>
-        </div>
-      </div>
-      <div class="portfolio-item">
-        <div class="card h-100">
-          <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
-          </a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project Five</a>
-            </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
-              varius vitae.</p>
-          </div>
-        </div>
-      </div>
-      <div class="portfolio-item">
-        <div class="card h-100">
-          <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
-          </a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project Six</a>
-            </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident,
-              perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
           </div>
         </div>
       </div>
@@ -219,23 +165,12 @@
     <!-- Features Section -->
     <div class="row">
       <div class="col-lg-6">
-        <h2>Modern Business Features</h2>
-        <p>The Modern Business template by Start Bootstrap includes:</p>
-        <ul>
-          <li>
-            <strong>Bootstrap v4</strong>
-          </li>
-          <li>jQuery</li>
-          <li>Font Awesome</li>
-          <li>Working contact form with validation</li>
-          <li>Unstyled page elements for easy customization</li>
-        </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam
-            totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.
-          </p>      
+        <h2>Washington Native Restoration Cares About . . .</h2>
+        <p> YOU!</p>
+        
         </div>
       <div class="col-lg-6">
-        <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
+        <img class="img-fluid rounded" src="images/plant-pics/bigman.jpg" alt="">
       </div>
     </div>
     <!-- /.row -->
@@ -258,19 +193,16 @@
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
-  <!-- (4)TODO User flex-box to replace the centered paragraph with copyright and date with 2 paragraphs: the first paragraph is left aligned and contains copyright and date 
-      and one that is right aligned and contains your name.
-      Put the footer on every page.
-    -->
+  
     <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+        <div>
+          <p class="flex-left">WNR &copy; 2019</p>
+        </div>
+          <p class="flex-right">Chris Connolly</p>
+        </div>
       </div>
     <!-- /.container -->
   </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
